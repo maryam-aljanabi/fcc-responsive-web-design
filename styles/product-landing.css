@@ -1,0 +1,50 @@
+body {
+  background-color: #eee !important;
+}
+.content {
+  background-color: #eee;
+  margin-top: 9rem;
+}
+#nav-bar {
+  background-color: #eee;
+}
+
+img {
+  max-width: 40%;
+}
+
+#top {
+  max-width: 40%;
+  margin: 20px auto;
+  padding-top: 20px;
+  text-align: center;
+}
+#features {
+  margin: 20px auto;
+  max-width: 80%;
+}
+.fa {
+  color: darkorange;
+}
+#pricing {
+  max-width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+.card {
+  margin: 10px !important;
+}
+.card-body {
+  background-color: #eee;
+}
+.card-header {
+  background-color: #ddd !important;
+}
+
+#footer {
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ddd;
+}

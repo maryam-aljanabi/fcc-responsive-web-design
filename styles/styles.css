@@ -1,0 +1,37 @@
+.container-fluid.custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+a,
+a:hover {
+  color: #dbdbdb;
+}
+
+.circle-img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin: 1rem;
+  border: 1px solid #dbdbdb;
+  -webkit-transition: all 0.2s linear;
+}
+
+.circle-img:hover {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  box-shadow: 5px 5px 5px var(--dark-gray);
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid.custom {
+    height: auto;
+  }
+}
